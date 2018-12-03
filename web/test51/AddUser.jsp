@@ -42,5 +42,11 @@
         </tr>
     </table>
 </form>
+<div align="center">
+<a href="SearchAndModify.jsp">查询界面</a>
+</div>
+<div align="center">
+<a href="DeleteUser.jsp">删除界面</a>
+    </div>
 </body>
 </html>
