@@ -14,7 +14,7 @@
 <div align="center">
     <B>查询和修改用户</B>
 </div>
-<form  action="" method="post" name="form1">
+<form  action="SelectUser" method="post" name="form1">
     <table align="center">
         <tr>
             <td>

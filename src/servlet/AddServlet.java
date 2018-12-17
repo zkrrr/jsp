@@ -16,6 +16,7 @@ public class AddServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String username = req.getParameter("username");
         String password = req.getParameter("password");
+
         Connection connection = JdbcConnection.getConnection();
         if (connection!=null) {
             String sql = "insert into user values(?,?);";

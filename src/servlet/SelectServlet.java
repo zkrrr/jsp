@@ -98,6 +98,9 @@ public class SelectServlet extends HttpServlet {
                 "<div align=\"center\">\n" +
                 "<a href=\"AddUser.jsp\">添加用户</a>\n" +
                 "</div>\n" +
+                "<div align=\"center\">\n" +
+                "<a href=\"javascript:window.history.go(-1);\">返回上页</a>\n" +
+                "</div>\n" +
                 "</body>\n" +
                 "</html>\n");
     }

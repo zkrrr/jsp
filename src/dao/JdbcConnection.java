@@ -19,7 +19,6 @@ public class JdbcConnection {
         try {
 
             return DriverManager.getConnection(connect,user,password);
-
         } catch (SQLException e) {
             e.printStackTrace();
         }
