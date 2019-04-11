@@ -1,4 +1,4 @@
-<%--
+<%@ page import="java.sql.Connection" %><%--
   Created by IntelliJ IDEA.
   User: zk
   Date: 18-11-2

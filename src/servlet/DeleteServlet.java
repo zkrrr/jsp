@@ -16,6 +16,7 @@ public class DeleteServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String username = req.getParameter("username");
         Connection connection = JdbcConnection.getConnection();
+
         if (connection!=null) {
             String sql = "delete from user where username=?";
             PreparedStatement preparedStatement = null;

@@ -6,9 +6,11 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <jsp:useBean id="square" class="org.Square" scope="page">
     <jsp:setProperty name="square" property="*"/>
 </jsp:useBean>
+
 <html>
 <head>
     <title>show</title>

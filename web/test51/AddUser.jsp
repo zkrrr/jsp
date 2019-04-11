@@ -33,7 +33,7 @@
             </td>
         </tr>
         <tr>
-            <td>
+            <td >
                 <input type="submit" value="提交">
             </td>
             <td>
@@ -42,10 +42,10 @@
         </tr>
     </table>
 </form>
-<div align="center">
+<div filter align="center">
 <a href="SearchAndModify.jsp">查询界面</a>
 </div>
-<div align="center">
+<div align="center" >
 <a href="DeleteUser.jsp">删除界面</a>
     </div>
 </body>

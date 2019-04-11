@@ -2,6 +2,7 @@ package org;
 
 public class Square {
     public static final double PAI = 3.14;
+
     private double d;
 
     public double getD() {

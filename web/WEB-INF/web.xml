@@ -80,4 +80,8 @@
         <url-pattern>/booktest43/a_login.jsp</url-pattern>
     </filter-mapping>
 
+
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
 </web-app>
